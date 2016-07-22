@@ -1,0 +1,94 @@
+#principal a {
+    font-size: 14px;
+    color: #CCC;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #AAA;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 60vw;
+    padding: 0px 25px;
+    margin: 11px 0px 0px 0px;
+}
+li {
+    margin: 2px;
+    padding: 2px;
+}
+#manjaro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+}
+nav {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+section#manjaro a {
+    display: block;
+    padding: 15px 22px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFF;
+    border-radius: 25px;
+    background-color: rgb(52, 190, 91);
+    font-weight: bold;
+}
+section#manjaro h2 {
+    font-size: 35px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+section#manjaro p {
+    color: #AAA;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(52, 190, 91);
+    height: 70vh;
+}
+section#about h2 {
+    font-size: 30px;
+    color: #FFF;
+    margin-bottom: 30px;
+}
+section#about p {
+    width: 800px;
+    text-align: center;
+    color: #CCC;
+    margin-bottom: 40px;
+}
+section#about a {
+    display: block;
+    padding: 15px 22px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #777;
+    border-radius: 25px;
+    background-color: #FFF;
+    font-weight: bold;
+}
