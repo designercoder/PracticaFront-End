@@ -1,4 +1,8 @@
-#principal a {
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.woff') format('woff');
+}
+header a {
     font-size: 14px;
     color: #CCC;
     text-decoration: none;
@@ -11,7 +15,7 @@ header {
     top: 0px;
     width: 100vw;
 }
-ul {
+header ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -91,4 +95,95 @@ section#about a {
     border-radius: 25px;
     background-color: #FFF;
     font-weight: bold;
+}
+#obtenManjaro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    background-color: #222;
+}
+section#obtenManjaro h2 {
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+section#obtenManjaro a {
+    display: block;
+    padding: 15px 22px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #111;
+    border-radius: 25px;
+    background-color: #FFF;
+    font-weight: bold;
+}
+#services {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+section#services h2 {
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+    width: 100vw;
+}
+section#services>article>h3::before{
+    color: rgb(52, 190, 91);
+    font-size:60px;
+    margin: 10px;
+    font-weight: lighter;
+    font-family: 'FontAwesome';
+    display: block;
+}
+section#services>article#pseudoElem1>h3::before{
+    content: "\f219";
+}
+section#services>article#pseudoElem2>h3::before{
+    content: "\f1d9";
+}
+section#services>article#pseudoElem3>h3::before{
+    content: "\f1ea";
+}
+section#services>article#pseudoElem4>h3::before{
+    content: "\f004";
+}
+section#services article {
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px;
+    padding: 4px;
+    text-align: center;
+    width: 20vw;
+}
+#final {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+section#final h2 {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+section#final p{
+    display:flex;
+    width: 100vw;
+    justify-content: center;
+}
+section#final ul{
+    display: flex;
+    width: 100vw;
+    padding: 0px 150px;
+    justify-content: space-between;
+}
+header a:hover {
+    color: #EEE;
+    font-weight: bolder;
 }
