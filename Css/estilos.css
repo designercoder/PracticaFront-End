@@ -166,11 +166,13 @@ section#services article {
     align-content: center;
     height: 50vh;
     flex-wrap: wrap;
+    font-size: 14px;
 }
 section#final h2 {
     display: flex;
     justify-content: center;
     width: 100vw;
+    font-size: 25px;
 }
 section#final p{
     display:flex;
@@ -179,9 +181,30 @@ section#final p{
 }
 section#final ul{
     display: flex;
+    list-style: none;
     width: 100vw;
     padding: 0px 150px;
-    justify-content: space-between;
+    justify-content: center;
+}
+section#final a{
+    text-decoration: none;
+    margin: 120px;
+    color: #000;
+}
+section#final>ul>li::before{
+    color: #011;
+    font-size:60px;
+    margin: 10px;
+    font-weight: lighter;
+    font-family: 'FontAwesome';
+    display: block;
+    text-align: center;
+}
+section#final>ul>li#pseudoElem5::before{
+    content: "\f09b";
+}
+section#final>ul>li#pseudoElem6::before{
+    content: "\f003";
 }
 header a:hover {
     color: #EEE;
