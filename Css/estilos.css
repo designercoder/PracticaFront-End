@@ -104,12 +104,12 @@ section#about a {
     height: 30vh;
     background-color: #222;
 }
-section#obtenManjaro h2 {
+aside#obtenManjaro h2 {
     text-align: center;
     color: #FFF;
     margin-bottom: 20px;
 }
-section#obtenManjaro a {
+aside#obtenManjaro a {
     display: block;
     padding: 15px 22px;
     text-decoration: none;
